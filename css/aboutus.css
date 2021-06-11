@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#about-secOne {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+   
+}
+
+
+  .missionOne{
+    text-align: center;
+   
+}
+img {
+    border-radius: 50%;
+  }

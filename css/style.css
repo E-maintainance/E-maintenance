@@ -33,6 +33,9 @@ header div img{
    left: 280px;
    top: 0px;
 }
+.zaid2{
+    color: white;
+}
 /* header div {
     background-color: hotpink;
 } */
@@ -69,6 +72,9 @@ left: 45%;
 /* *{
     background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
 } */
-body {
-    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+.iron {
+    background-image:url(https://wallpapercave.com/wp/wp6847911.jpg);
+}
+main section p {
+    color: white;
 }

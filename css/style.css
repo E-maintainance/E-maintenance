@@ -2,11 +2,11 @@
 .zaid {
     background-color: purple;
     }
-    .zaid2  {
+    /* .zaid2  {
         background-color: red;
         -webkit-transform: skewX(45deg);
     }
-    
+     */
     header nav ul li  {
         display: inline-block;
     

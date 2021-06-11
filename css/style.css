@@ -1,10 +1,24 @@
-.zaid {
-/* background-color: yellow; */
+/* .showcase::before,.showcase::after{
+    content: '';
+    color:white;
+    position: absolute;
+    height: 1px;
+    bottom:-550px;
+    right:0PX;
+    left:0PX;
+    background-color:red;
+    transform: skewY(50deg);
+    -webkit-transform: skewY(50deg);
+    -moz-transform:skewY(50deg) ;
+    -ms-transform: skewY(50deg);
+
 }
-.zaid2 {
-    /* background-color:red; */
-    /* -webkit-transform: skewX(45deg); */
-}
+.showcase{
+    height: 40px;
+    background-color: var(--primary-color);
+    color:white;
+    position: relative;
+} */
 
 header nav ul li  {
     display: inline-block;

@@ -19,6 +19,9 @@
     color:white;
     position: relative;
 } */
+.showcase {
+    color: lavenderblush;
+}
 
 header nav ul li  {
     display: inline-block;

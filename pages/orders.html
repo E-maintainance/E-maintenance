@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 40%;
+        }
+        
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+          padding: 2px 16px;
+        }
+        </style>
+</head>
+<body>
+    <script>
+        var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+
+       
+        
+        let data=localStorage.getItem("Custmer_info")
+        let parse=JSON.parse(data)
+    
+        let all_data = [];
+        all_data = parse;
+        all_data.forEach(element => {
+            document.write('<div class="card">');
+           document.write(' <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">');
+           document.write('<div class="container">');
+            t=element.date.split("/")
+            t[1]=(parseInt(t[1])+7).toString()
+            t=t.toString()
+            t=t.replace(/,/g, "/")
+            
+            
+           document.write('<h4><b>'+element.fname+" "+element.lname+'</b></h4><p>'+element.phone+'</p> </div></div>'+element.brand+""+element.model+""+element.year+'</p> </div></div>'+element.area+'</p> </div></div>'+t)
+        });
+       
+    
+    </script>
+    
+
+<div class="card" style="display: none;">
+  <img src="" alt = "" style=>
+  <div class="container">
+    <h4><b></b></h4> 
+    <p></p> 
+  </div>
+</div>
+</body>
+</html>

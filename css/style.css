@@ -74,4 +74,6 @@
     } */
     body {
         background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat
     }

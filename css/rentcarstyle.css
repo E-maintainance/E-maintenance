@@ -1,0 +1,191 @@
+.zaid {
+    height: 60px;
+background-color: rgb(17, 17, 17);
+
+}
+.image1{
+position: relative;
+top:20px;
+right: 100px;
+}
+
+.zaid2 {
+    height: 80px;
+    background-color:rgb(233, 95, 45);
+    
+}
+#logo{
+    position: relative;
+    left: 120px;
+    width:100px ;
+    height: 80px;
+    top: -35px;
+}
+
+header nav ul li  {
+    display: inline-block;
+    bottom: -20px;
+
+}
+
+#aboutus{
+    position:relative ;
+    left: 300px;
+
+}
+#rentcar{
+    position: relative;
+    left: 280px;
+}
+#location{
+    position:relative;
+    left: 260px;
+}
+#home {
+    position: relative;
+    left: 240px;
+}
+header div img{
+   position: relative;
+   left: 280px;
+   top: 0px;
+}
+main section p{
+    position: relative;
+    top:100px;
+    font-size: 40px;
+}
+main #imagesection img{
+    height:200;
+    width: 200;
+}
+
+footer{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+    height: 100px;
+    top:200px;
+}
+/**************/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev, .next {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+/* Caption text */
+.text {
+  color: #111010;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #0f0f0f;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  top:65px;
+  right:-200 ;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(228, 86, 86);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.slideshow-container{
+    position: relative;
+    top:150px ;
+    right: -50px;
+}
+.slideshow a{
+    position: relative;
+    top:150px ;
+    right: -50px;
+
+}
+
+ .text{
+    position: relative;
+    left: -50px;
+}

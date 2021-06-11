@@ -1,9 +1,9 @@
 .zaid {
-background-color: purple;
+/* background-color: yellow; */
 }
 .zaid2 {
-    background-color: red;
-    -webkit-transform: skewX(45deg);
+    /* background-color:red; */
+    /* -webkit-transform: skewX(45deg); */
 }
 
 header nav ul li  {
@@ -65,10 +65,7 @@ position: relative;
 left: 45%;
     
 }
-footer{
-    clear: both;
-    text-align: center;
-}
+
 /* *{
     background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
 } */

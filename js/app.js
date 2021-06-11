@@ -4,7 +4,7 @@ const custumer_form=document.getElementById("form")
 
 
 
-function Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent){
+function Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent,date){
     this.fname = fname;
     this.lname = lname;
     this.phone = phone;
@@ -14,6 +14,7 @@ function Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent){
     this.model = model;
     this.area=area;
     this.rent=rent;
+    this.date=date ;
 
     Custumer_Data.alldata.push(this);
     
@@ -35,11 +36,18 @@ function Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent){
     let model = holder.model.value;
     let area = holder.cars.value;
     let rent = holder.rent.value;
-    console.log(rent)
+    var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+let date=today
+
   
     
-   new Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent)
-  
+   new Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent,date)
+
    saving();
   
   }

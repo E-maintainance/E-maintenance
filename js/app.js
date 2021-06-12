@@ -1,4 +1,7 @@
-const custumer_form=document.getElementById("form")
+/* eslint-disable no-undef */
+'use strict'
+
+const custumer_form = document.getElementById('form');
 
 
 
@@ -72,3 +75,4 @@ function getFromLs(){
     }
 
 }
+

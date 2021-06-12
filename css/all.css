@@ -1,66 +1,77 @@
 *{
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body{
     font-family: sans-serif;
 }
 a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+}
+a:hover{
+    background-color: #FA6625;
 }
 .wrapper .sidenav{
     position: fixed;
     left: 0;
     top: 0;
-    width: 20vw;
-    height: 100vh;
-    background: black;
+    width: 17vw;
+    height: 65vh;
+    background: rgb(0, 0, 0);
 }
 .wrapper .sidenav h1{
-    color:white;
+    color:rgb(0, 0, 0);
     text-align: center;
-    line-height: 40px;
-    border-bottom: 1px solid white;
+    line-height: 35px;
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin-bottom: 50px;
+    font-size: 2em;
 }
 .wrapper .sidenav ul li {
     list-style: none;
     padding: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    border-top: 1px solid rgba(255, 255, 255, 0);
 }
 
 .wrapper .main-content{
     width: 80vw;
-    margin-left: 20vw;
+    margin-left: 21vw;
+}
+section{
+    height: 55vh;
+    padding: 30px;
 }
 
-/* h1{
+
+h1{
     font-size: 2.667em;
     color: #006B5B;
     text-transform: capitalize;
     font-weight: 700;
-    line-height: 0.953em;
     font-family: 'Crimson Text', serif;
-    letter-spacing: 0;
+    letter-spacing: 1px;
 }
-h3{
-    color: #434343;
+h2{
+    color: #006B5B;
+    font-size: 1.7em;
     letter-spacing: .05em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
+}
+h3{
+    color: #006B5B;
+    font-size: 1.7em;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 p{
     margin: 1.5em 0;
-    font-size: .889em;
+    font-size: 1em;
     font-weight: 400;
-    line-height: 1.750em;
-}
-h1, h2, h3, {
-    margin: 0;
-    line-height: 1.2;
-    font-weight: 400;
-    font-family: 'Montserrat', serif;
+    line-height: 1.8em;
 }
 ul {
     display: block;
@@ -71,7 +82,3 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-} */

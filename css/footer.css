@@ -1,0 +1,57 @@
+footer div {
+    position: relative;
+    bottom: 41px;
+  background-image: url(https://wallpaperaccess.com/full/741514.jpg);
+
+}
+
+footer section h1{
+
+    clear: both;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer div img {
+width: 30px;
+height: 40px;
+
+}
+#visa {
+    position: relative;
+    top: 11px;
+left:5px;
+}
+
+#zain {
+    height:25px;
+    position: relative;
+    top: 3px;
+left: 10px;
+}
+
+#e{
+position: relative;
+top: 10px;
+left: 15px;
+}
+
+footer div {
+ color: whitesmoke;
+}
+.hero{
+    width:160px;
+    height: 100px;
+    position: relative;
+    /* left: 520px; */
+
+}
+.hours{
+    width: 160px;
+    height: 100px;
+    position: relative;
+}
+h5{
+    text-align: center;
+}

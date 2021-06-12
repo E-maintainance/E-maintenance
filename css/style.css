@@ -1,11 +1,110 @@
+/* .showcase::before,.showcase::after{
+    content: '';
+    color:white;
+    position: absolute;
+    height: 1px;
+    bottom:-550px;
+    right:0PX;
+    left:0PX;
+    background-color:red;
+    transform: skewY(50deg);
+    -webkit-transform: skewY(50deg);
+    -moz-transform:skewY(50deg) ;
+    -ms-transform: skewY(50deg);
+}
+.showcase{
+    height: 40px;
+    background-color: var(--primary-color);
+    color:white;
+    position: relative;
+} */
+.showcase {
+    color: lavenderblush;
+
+}
 .zaid {
-    background-color: purple;
+    height: 60px;
+background-color: rgb(17, 17, 17);
+
+}
+.image1{
+position: relative;
+top:20px;
+right: 100px;
+}
+
+.zaid2 {
+    height: 80px;
+    background-color:rgb(233, 95, 45);
+    
+
+   
+}
+#logo{
+    position: relative;
+    left: 120px;
+    width:100px ;
+    height: 80px;
+    top: -35px;
+
+}
+
+header nav ul li  {
+    display: inline-block;
+    bottom: -20px;
+
+}
+
+#aboutus{
+    position:relative ;
+    left: 300px;
+
+}
+#rentcar{
+    position: relative;
+    left: 280px;
+}
+#location{
+    position:relative;
+    left: 260px;
+}
+#home {
+    position: relative;
+    left: 240px;
+}
+header div img{
+   position: relative;
+   left: 280px;
+   top: 0px;
+}
+
+.zaid2{
+    color: white;
+}
+
+main section p{
+    position: relative;
+    top:100px;
+    font-size: 40px;
+}
+
+
+/* header div {
+    background-color: hotpink;
+} */
+/* main img {
+    width: 500px ;
+    height:500px;
+} */
+
+.zaid {
+    background-color: orangered;
     }
-    .zaid2  {
+    /* .zaid2  {
         background-color: red;
         -webkit-transform: skewX(45deg);
     }
-    
+     */
     header nav ul li  {
         display: inline-block;
     
@@ -41,6 +140,32 @@
         height:500px;
     } */
     
+
+
+
+/* *{
+    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+} */
+.iron {
+    background-image:url(https://wallpapercave.com/wp/wp6847911.jpg);
+}
+main section p {
+    color: white;
+}
+footer{
+    position: relative;
+    padding-top: 40px;
+    text-align: center;
+    height: 100px;
+}
+/* *{
+    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+} */
+ /* #hero-image{
+    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+height: 1000px;
+
+} */
     /* main section img{
         /* float: right; */
     /* } */ 
@@ -72,6 +197,87 @@
     /* *{
         background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
     } */
-    body {
+    /* body {
         background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+    } */
+    form{
+        color: whitesmoke;
     }
+ #logo{
+        width: px;
+        height: px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+/* 
+article h2 {
+    position: relative;
+    top: 70px;
+    left:40px;
+    font-size: 40px;
+    color: rgba(44, 42, 199, 0.644);;
+}
+article h3 {
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    font-size: 40px;
+    color: rgb(71, 160, 212);
+}
+article h4 {
+    position: relative;
+    bottom: 105px;
+    left: 250px;
+    font-size: 40px;
+    color: rgb(71, 160, 212);
+}
+article h6 {
+    position: relative;
+    bottom: 245px;
+    left: 390px;
+    font-size: 40px;
+    color: rgba(44, 42, 199, 0.644);
+}
+article h8{
+    position: relative;
+    bottom: 380px;
+    left: 570px;
+    font-size: 40px;
+    color:rgba(182, 29, 29, 0.829);
+}
+article{
+    position: relative;
+left: 140px;
+}
+
+h8{
+    position: relative;
+    -webkit-text-stroke: 0.3vw  ;
+    text-transform: uppercase;
+}
+h8::before {
+    content: attr(data-text);
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    color:rgba(44, 42, 199, 0.944);
+-webkit-text-stroke: 0vw rgba(182, 29, 29, 0.829);;
+border-right: 3px solid rgb(71, 160, 212) ;
+overflow: hidden ;
+animation: animate 6s linear infinite ;
+
+}
+@keyframes animate 
+{
+    0%,30%
+    {
+        width: 0%;
+    }
+    70%,80%,90%
+    {
+        width: 110%;
+    }
+} */

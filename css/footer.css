@@ -1,6 +1,7 @@
-footer {
-  background-image: url(https://images.unsplash.com/photo-1604879616509-d841eec0ca4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
-
+footer div {
+    position: relative;
+    bottom: 41px;
+  background-image: url(https://wallpaperaccess.com/full/741514.jpg);
 
 }
 
@@ -8,7 +9,7 @@ footer section h1{
 
     clear: both;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,20 +38,19 @@ left: 15px;
 }
 
 footer div {
- color: white;
+ color: whitesmoke;
 }
 .hero{
     width:160px;
     height: 100px;
     position: relative;
-    left: 520px;
+    /* left: 520px; */
 
 }
 .hours{
     width: 160px;
     height: 100px;
     position: relative;
-    left:500px;
 }
 h5{
     text-align: center;

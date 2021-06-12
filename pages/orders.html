@@ -5,23 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .card {
-          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-          transition: 0.3s;
-          width: 40%;
-        }
-        
-        .card:hover {
-          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-        }
-        
-        .container {
-          padding: 2px 16px;
-        }
-        </style>
+    <link rel="stylesheet" href="../css/orders.css">
+    
 </head>
 <body>
+  
     <script>
         var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -36,29 +24,32 @@ var yyyy = today.getFullYear();
     
         let all_data = [];
         all_data = parse;
-        all_data.forEach(element => {
-            document.write('<div class="card">');
-           document.write(' <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" style="width:100%">');
-           document.write('<div class="container">');
-            t=element.date.split("/")
-            t[1]=(parseInt(t[1])+7).toString()
+        
+    console.log(all_data)
+    for(let i=0;all_data.length;i++){
+      t=all_data[i].date.split("/")
+            t[1]=(parseInt(t[1])+(Math.floor(Math.random() * (7 - 0 + 1) ) + 0)).toString()
             t=t.toString()
             t=t.replace(/,/g, "/")
-            
-            
-           document.write('<h4><b>'+element.fname+" "+element.lname+'</b></h4><p>'+element.phone+'</p> </div></div>'+element.brand+""+element.model+""+element.year+'</p> </div></div>'+element.area+'</p> </div></div>'+t)
-        });
-       
-    
+      document.write('<div class="container">')
+        document.write('<div class="card">')
+          document.write('<div class="box">')
+            document.write('<div class="content">')
+              document.write('<h2>'+'0'+i+'</h2>')
+              document.write('<h3>'+'Mr/Mrs:  '+all_data[i].lname+'</h3>')
+              document.write('<p>'+all_data[i].brand+"   "+all_data[i].model+"   "+all_data[i].year+'<br>'+'Deliver Date :'+t+'</p>')
+              document.write('<a href="#">Call Us</a>')
+              document.write ('</div>')
+              document.write('</div>')
+              document.write('</div>')
+
+    }
     </script>
     
 
-<div class="card" style="display: none;">
-  <img src="" alt = "" style=>
-  <div class="container">
-    <h4><b></b></h4> 
-    <p></p> 
-  </div>
-</div>
+
+
+
+
 </body>
 </html>

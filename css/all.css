@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: #FA6625;
+    background-color: rgb(222, 135, 135);;
 }
 .wrapper .sidenav{
     position: fixed;

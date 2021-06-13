@@ -5,32 +5,50 @@
 
     <title>HOUSE OF CARS</title>
     <link rel="stylesheet" href="../css/rentcarstyle.css">
+    <link rel="stylesheet" href="/css/header.css">
 </head>
 
 <body>
     
-        <header>
-            <div class="zaid">
-                <img class="image1"
-                    src="https://www.kindpng.com/picc/m/237-2378542_icon-symbol-gui-house-home-start-top-check.png"
-                    style="height: 30px;height: 25px;">
-                <img class="image1" src="https://ak.picdn.net/shutterstock/videos/1025179811/thumb/1.jpg"
-                    style="width: 30px;height: 25px;">
-                <img class="image1" src="../images/fb-icon (1).png">
-                <img class="image1" src="../images/insta-icon (1).png">
+  <header>
+    <nav>
+        <div class="logo">
+            <h3>House Of Cars</h3>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
 
-                <nav class="zaid2">
-                    <ul>
-                        <li id="home">HOME</li>
-                        <li id="location">LOCATION</li>
-                        <li id="rentcar">RENT CAR</li>
-                        <li id="aboutus">ABOUT US</li>
-                    </ul>
-                    <img id="logo" src="../images/House Of Cars.jpg" alt="logo">
+            <li>
+                
+                <a href="/pages/ourservices.html" class="za">Our Services</a>
+                <ul class="drop-list">
+                    <li class="zz"><a href="/pages/engine.html">ENGINE SERVICES</a></li>
+                    <li class="zz"><a href="/pages/batteries.html">BATTERIES</a></li>
+                    <li class="zz"><a href="/pages/breaks.html">BREAKS</a></li>
+                    <li class="zz"><a href="/pages/oil.html">OIL & FILTER CHANGE</a></li>
+                    <li class="zz"><a href="/pages/ac.html">AC SERVICES</a></li>
+                    <li class="zz"><a href="/pages/exhaust.html">EXHAUST SYSTEM</a></li>
+                </ul>
+            </li>
 
-                </nav>
-            </div>
-        </header>
+            <li>
+                <a href="/pages/rent.html">Rent</a>
+            </li>
+
+            <li>
+                <a href="/pages/aboutus.html">About Us</a>
+            </li>
+
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</header>
 
         <main>
             <div class="slideshow-container">   
@@ -114,6 +132,7 @@
                 Email Us!</h3>
 
         </footer>
+        <script src="../js/header.js"></script>
         <script>
             var slideIndex = 1;
             showSlides(slideIndex);
@@ -141,7 +160,9 @@
               slides[slideIndex-1].style.display = "block";  
               dots[slideIndex-1].className += " active";
             }
+            
             </script>
+        
 </body>
 
 </html>

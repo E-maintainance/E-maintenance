@@ -35,9 +35,9 @@
   <main>
     <div class="slideshow-container">
 
-      <div class="mySlides fade" id="car1" >
+      <div class="mySlides fade"  >
         <div class="numbertext">1 / 8</div>
-        <img src="../images/kia.jpg" style="width:800px" >
+        <img src="../images/kia.jpg" style="width:800px" id="car" >
         <div class="text" style="color: brown;">Drive Wheel :front<br>
           Engine/motor Type:fuel engine<br>
           Fuel Type:gasoline<br>
@@ -47,42 +47,42 @@
           price:20$/day.
           </div>
       </div>
-      <div class="mySlides fade">
+      <div class="mySlides fade" >
         <div class="numbertext">2 / 8</div>
-        <img src="../images/kia2.png" style="width:800px"id="car2">
+        <img src="../images/kia2.png" style="width:800px" id="car">
         <div class="text" style="color: brown;">Caption Two</div>
       </div>
      
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides fade" >
         <div class="numbertext">3/ 8</div>
-        <img src="../images/kia3.jpg" style="width:800px">
+        <img src="../images/kia3.jpg" style="width:800px" id="car">
         <div class="text" style="color: brown;">Caption Three</div>
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides fade" >
         <div class="numbertext">4 / 8</div>
-        <img src="../images/kia4.jpg" style="width:800px">
+        <img src="../images/kia4.jpg" style="width:800px" id="car">
         <div class="text" style="color: brown;">Caption Three</div>
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides fade" >
         <div class="numbertext">5 / 8</div>
-        <img src="../images/mits.png" style="width:600px">
+        <img src="../images/mits.png" style="width:600px" id="car">
         <div class="text" style="color: brown; padding: left 20px;">Caption Three</div>
       </div>
 
 
-      <div class="mySlides fade">
+      <div class="mySlides fade" >
         <div class="numbertext" style="color: brown;">6 / 8</div>
-        <img src="../images/toyota.jpg" style="width:800px">
+        <img src="../images/toyota.jpg" style="width:800px" id="car">
         <div class="text" style="color: brown;">Caption Three</div>
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides fade" >
         <div class="numbertext" style="color: brown;">7 / 8</div>
-        <img src="../images/van2.png" style="width:1000px">
+        <img src="../images/van2.png" style="width:1000px" id="car">
         <div class="text" style="color: brown;">Caption Three</div>
       </div>
 
@@ -105,9 +105,13 @@
       <span class="dot" onclick="currentSlide(7)"></span>
       <span class="dot" onclick="currentSlide(8)"></span>
     </div>
-    <div >
-     <img src="../images/kia.jpg" alt="Kiacar" id="car4">
-    </div>
+
+
+
+
+
+    <div id="rented_cars" style="display: inline-block;"> </div>
+   
     <div id="myChart">
 
     </div>
@@ -161,34 +165,60 @@
     let arrOfNames=[];
     let imageindex;
     let bookedCars=[];
-    function Cars(carType, rent) {
-      this.carType = carType;
+    function Cars(rent) {
+      
       this.rent = rent;
       Cars.allCars.push(this);
-       arrOfNames.push(this.carType)
-       console.log(arrOfNames);
+       
     }
     Cars.allCars = [];
-    new Cars('kia','../images/kia.jpg');
-    new Cars('kia2','../images/kia2.png');
-    new Cars('kia3','../images/kia3.jpg');
     
         
 
-  let car1=document.getElementById("car1");
-  car1.addEventListener('click',selection);
+  let img=document.getElementById("car");
+  img.addEventListener('click',selection);
   
- function selection(){
+ function selection(event){
   alert('hi');
-  let car1=document.getSelection();
-  let convert=JSON.stringify(Cars.allCars);
-  localStorage.setItem('Cars',convert);
+  event.preventDefault();
+  console.log(event.target.src)
+  new Cars (event.target.src)
+  savingimg();
+
 }
-function gitingData(){
-  let data=localStorage.getItem('Cars');
-  let convert=JSON.parse(data);
-}
- gitingData(); 
+ 
+console.log(Cars.allCars)
+function savingimg(){
+convert=JSON.stringify(Cars.allCars)
+localStorage.setItem("Rentedcars",convert);
+
+} 
+
+let x;
+function getit(){
+let rented=[]
+  let data=localStorage.getItem('Rentedcars');
+  let parse=JSON.parse(data);
+  if(parse !=null){
+    rented=parse
+    }
+    return rented
+  }
+  
+  x=getit();
+  console.log(x[0].rent)
+  if(x !=null){
+  for (let i=0;i<x.length;i++){
+   let y =document.getElementById("rented_cars")
+   im=document.createElement("img")
+  im .setAttribute("src",x[i].rent)
+
+   y.appendChild(im)
+  }}
+
+  
+
+  
 
 
 

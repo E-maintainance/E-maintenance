@@ -1,4 +1,3 @@
-
 /* .showcase::before,.showcase::after{
     content: '';
     color:white;
@@ -12,7 +11,6 @@
     -webkit-transform: skewY(50deg);
     -moz-transform:skewY(50deg) ;
     -ms-transform: skewY(50deg);
-
 }
 .showcase{
     height: 40px;
@@ -23,7 +21,7 @@
 .showcase {
     color: lavenderblush;
 
-
+}
 .zaid {
     height: 60px;
 background-color: rgb(17, 17, 17);
@@ -100,7 +98,7 @@ main section p{
 } */
 
 .zaid {
-    background-color: purple;
+    background-color: orangered;
     }
     /* .zaid2  {
         background-color: red;
@@ -143,7 +141,7 @@ main section p{
     } */
     
 
-}
+
 
 /* *{
     background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
@@ -153,7 +151,7 @@ main section p{
 }
 main section p {
     color: white;
-
+}
 footer{
     position: relative;
     padding-top: 40px;
@@ -163,11 +161,11 @@ footer{
 /* *{
     background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
 } */
- #hero-image{
+ /* #hero-image{
     background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
 height: 1000px;
 
-}
+} */
     /* main section img{
         /* float: right; */
     /* } */ 
@@ -199,8 +197,87 @@ height: 1000px;
     /* *{
         background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
     } */
-    body {
+    /* body {
         background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
+    } */
+    form{
+        color: whitesmoke;
     }
+ #logo{
+        width: px;
+        height: px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+/* 
+article h2 {
+    position: relative;
+    top: 70px;
+    left:40px;
+    font-size: 40px;
+    color: rgba(44, 42, 199, 0.644);;
+}
+article h3 {
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    font-size: 40px;
+    color: rgb(71, 160, 212);
+}
+article h4 {
+    position: relative;
+    bottom: 105px;
+    left: 250px;
+    font-size: 40px;
+    color: rgb(71, 160, 212);
+}
+article h6 {
+    position: relative;
+    bottom: 245px;
+    left: 390px;
+    font-size: 40px;
+    color: rgba(44, 42, 199, 0.644);
+}
+article h8{
+    position: relative;
+    bottom: 380px;
+    left: 570px;
+    font-size: 40px;
+    color:rgba(182, 29, 29, 0.829);
+}
+article{
+    position: relative;
+left: 140px;
+}
 
+h8{
+    position: relative;
+    -webkit-text-stroke: 0.3vw  ;
+    text-transform: uppercase;
+}
+h8::before {
+    content: attr(data-text);
+    position: absolute ;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    color:rgba(44, 42, 199, 0.944);
+-webkit-text-stroke: 0vw rgba(182, 29, 29, 0.829);;
+border-right: 3px solid rgb(71, 160, 212) ;
+overflow: hidden ;
+animation: animate 6s linear infinite ;
 
+}
+@keyframes animate 
+{
+    0%,30%
+    {
+        width: 0%;
+    }
+    70%,80%,90%
+    {
+        width: 110%;
+    }
+} */

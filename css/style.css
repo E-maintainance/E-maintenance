@@ -281,3 +281,37 @@ animation: animate 6s linear infinite ;
         width: 110%;
     }
 } */
+/* }
+label{
+    position:absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border:2px solid;
+    border-radius: 20px;
+
+}
+
+label::before
+{
+    position:absolute;
+    content: '';
+    width: 45px;
+    height: 22px;
+    left : 20px;
+    top: 1px;
+    border:1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #000;
+    transform: 0.4s;
+}
+label.active::before{
+left :24px;
+background: #fff;
+}
+label.night{
+    background: #000;
+    color: #fff;
+} */

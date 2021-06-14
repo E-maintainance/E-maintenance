@@ -281,3 +281,64 @@ animation: animate 6s linear infinite ;
         width: 110%;
     }
 } */
+/*form css*/
+form {
+    background-color: #0a0a0a;
+    border: none;
+    color: rgb(250, 246, 246);
+    padding: 60px;
+    text-decoration: none;
+    margin: 0px 0px;
+    cursor: pointer;
+  }
+  form lable {
+      color: aliceblue;
+      width:100px ;
+  }
+  form input,select,button,lable,label{
+      width:400px;
+      height: 40px;
+  }
+  form input,lable,button,select{
+      position: relative;
+      left: 350px;
+      border-radius: 15px;
+  }
+  label,.radio{
+      color: beige;
+  }
+  #but{
+      position: relative;
+      left:590px ;  
+    }
+    #yes{
+        color:red;
+
+    }
+    input[type=text], select {
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      label{
+          position: relative;
+          left: 350px;
+          size: 90px;
+
+      }
+      .radio{
+          width:20px ;
+          height:20px ;
+          position: relative;
+          left: 400px;
+      }
+      text{
+position: relative;
+left:1050px;
+      }
+    

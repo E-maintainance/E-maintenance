@@ -25,19 +25,23 @@ header{
     background-image: url(/images/pexels-cottonbro-4488636.jpg);
     width: 1500px;
 }
-
+.home{
+    text-decoration: none;
+    color: wheat;
+    
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    background-color: rgb(116, 10, 84);
     font-family: 'Poppins', sans-serif;
     height: 100px;
 }
 
 .logo{
-    color: white;
+    color: wheat;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -69,14 +73,14 @@ ul li:hover ul{
 
 }
 .nav-links a{
-    color: white;
+    color: wheat;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
 }
 a:hover{
-    background-color: burlywood;
+    background-color: rgb(222, 135, 135);
 }
 .burger{
     display: none;
@@ -108,7 +112,7 @@ a:hover{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #5d4954;
+        background-color: rgb(222, 135, 135);
         display: flex;
         flex-direction: column;
         align-items: center;

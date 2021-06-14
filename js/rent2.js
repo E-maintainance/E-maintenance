@@ -43,7 +43,7 @@ function handlclick(event){
     }).then((result) => {
         if (result.isConfirmed) {
           
-        location.replace("../pages/sign.html");
+            window.location.pathname = '../pages/sign.html'
     }});
     }
     

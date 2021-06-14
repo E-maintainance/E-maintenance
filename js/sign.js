@@ -142,24 +142,58 @@
   but.addEventListener('click',handlclick)
   function handlclick(event){
     event.preventDefault();
-      
-    swal.fire({
-        title: `Would you like to pay cash or Visa card?`,
-        text: 'choose what you prefer',
-        icon: 'warning',
-        showCancelButton: true,
-        confirmButtonColor: '#3085d6',
-        cancelButtonColor: '#d33',
-        confirmButtonText: 'Yes',
-        
-        
-    }).then((result) => {
-        if (result.isConfirmed) {
-          
-        location.replace("../pages/payment.html");
-    }});
+   
     
-}
+    Swal.fire({
+      title: 'Do you want to pay via visa or cash?',
+      showDenyButton: true,
+      showCancelButton: true,
+      confirmButtonText: `Visa`,
+      denyButtonText: `Cash`,
+    }).then((result) => {
+      /* Read more about isConfirmed, isDenied below */
+      if (result.isConfirmed) {
+        window.location.pathname = '../pages/payment.html'
+      } else if (result.isDenied) {
+        window.location.pathname = '../index.html'
+        
+      }
+    })
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     swal.fire({
+//         title: `Would you like to pay cash or Visa card?`,
+//         text: 'choose what you prefer',
+//         icon: 'warning',
+//         showCancelButton: true,
+//         confirmButtonColor: '#3085d6',
+//         cancelButtonColor: '#d33',
+//         confirmButtonText: 'Visa',
+//         cancelButtonText: "Cash"
+        
+//     }).then((result) => {
+//         if (result.isConfirmed) {
+          
+//         location.replace("../pages/payment.html");
+//     }
+//     else if (result.isDenied){
+
+//       location.replace("../index.html");
+//   }});
+    
+// }
   
 
   

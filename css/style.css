@@ -18,6 +18,65 @@
     color:white;
     position: relative;
 } */
+#container{
+    position: relative;
+}
+.bg-img{
+    position: absolute;
+}
+#container h1 #num1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(247, 240, 240);
+    top:120px;
+    left: 160px;
+    font-family: 'Mate SC', serif;;
+}
+#container h1 #num2{
+    position: absolute;
+    font-size: 44px;
+    color: rgb(247, 240, 240);
+    top:200px;
+    font-family:'Mate SC', serif;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(10, 10, 10);
+    height: 340px; 
+  }
+  #ourGalary{
+    position: relative;
+    top: 900px;
+}
+.flex-container > img {
+    background-color: #f1f1f1;
+    width: 24.6%;
+    height: 130;
+    margin: 0.3%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  #ourGalary h1{
+      text-align: center;
+      margin-bottom: 4%;
+      font-size: 40px;
+      font-family: 'Mate', serif;
+  }
+  hr{
+    width:10%;
+    color: rgb(247, 240, 240);
+    position: relative;
+    right: -710px;px;
+    }
+
+  #ourGalary h2{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 20px;
+  }
 .showcase {
     color: lavenderblush;
 
@@ -87,8 +146,17 @@ main section p{
     top:100px;
     font-size: 40px;
 }
+#newsection{
+    position: absolute;
+    height: 300px;
+    border: salmon;
+    top: 1550px;
+    
+}
 
+/*feedback */
 
+/**card**/
 /* header div {
     background-color: hotpink;
 } */
@@ -209,87 +277,20 @@ height: 1000px;
         position: absolute;
         left: 20px;
         top: 10px;
-    }
-/* 
-article h2 {
-    position: relative;
-    top: 70px;
-    left:40px;
-    font-size: 40px;
-    color: rgba(44, 42, 199, 0.644);;
-}
-article h3 {
-    position: relative;
-    bottom: 10px;
-    left: 150px;
-    font-size: 40px;
-    color: rgb(71, 160, 212);
-}
-article h4 {
-    position: relative;
-    bottom: 105px;
-    left: 250px;
-    font-size: 40px;
-    color: rgb(71, 160, 212);
-}
-article h6 {
-    position: relative;
-    bottom: 245px;
-    left: 390px;
-    font-size: 40px;
-    color: rgba(44, 42, 199, 0.644);
-}
-article h8{
-    position: relative;
-    bottom: 380px;
-    left: 570px;
-    font-size: 40px;
-    color:rgba(182, 29, 29, 0.829);
-}
-article{
-    position: relative;
-left: 140px;
-}
-
-h8{
-    position: relative;
-    -webkit-text-stroke: 0.3vw  ;
-    text-transform: uppercase;
-}
-h8::before {
-    content: attr(data-text);
-    position: absolute ;
-    top: 0px;
-    left: 0px;
-    width: 0%;
-    height: 100%;
-    color:rgba(44, 42, 199, 0.944);
--webkit-text-stroke: 0vw rgba(182, 29, 29, 0.829);;
-border-right: 3px solid rgb(71, 160, 212) ;
-overflow: hidden ;
-animation: animate 6s linear infinite ;
-
-}
-@keyframes animate 
-{
-    0%,30%
-    {
-        width: 0%;
-    }
-    70%,80%,90%
-    {
-        width: 110%;
-    }
-} */
+ }
 /*form css*/
 form {
-    background-color: #0a0a0a;
+    position: relative;
+    background-color: rgb(10, 10, 10);
     border: none;
-    color: rgb(250, 246, 246);
+    color: rgb(245, 240, 244);
     padding: 60px;
     text-decoration: none;
     margin: 0px 0px;
     cursor: pointer;
+    top: 800px;
+     
+    
   }
   form lable {
       color: aliceblue;
@@ -341,4 +342,14 @@ form {
 position: relative;
 left:1050px;
       }
+fieldset{
+    padding-top: 30px;
+padding-bottom: 30px;}
+
+#form fieldset legend{
+    font-size: 16px;
+    right: -80px;
+    
+}
+
     

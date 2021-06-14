@@ -34,11 +34,38 @@ function handlclick(event){
     swal.fire({
         title: `Are you sure you want ${event.target.innerHTML} ?`,
         text: 'Isn`t it the Coolest car ever?',
-        icon: 'question',
-    }).then(function() {
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes'
+        
+    }).then((result) => {
+        if (result.isConfirmed) {
+          
         location.replace("../pages/payment.html");
-    });
+    }});
     }
+    
+    // Swal.fire({
+    //     title: 'Are you sure?',
+    //     text: "You won't be able to revert this!",
+    //     icon: 'warning',
+    //     showCancelButton: true,
+    //     confirmButtonColor: '#3085d6',
+    //     cancelButtonColor: '#d33',
+    //     confirmButtonText: 'Yes, delete it!'
+    //   }).then((result) => {
+    //     if (result.isConfirmed) {
+    //       Swal.fire(
+    //         'Approved!',
+    //         'We are going to the contract page.',
+    //         'success'
+    //       )
+    //     }
+    //   })
+
+
     
    
     pay.all=[];

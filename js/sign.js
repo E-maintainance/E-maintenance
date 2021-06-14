@@ -132,3 +132,36 @@
     }, false);
   
   })();
+
+  
+
+  let but=document.getElementById('buto')
+  console.log(buto)
+
+
+  but.addEventListener('click',handlclick)
+  function handlclick(event){
+    event.preventDefault();
+      
+    swal.fire({
+        title: `Would you like to pay cash or Visa card?`,
+        text: 'choose what you prefer',
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Yes',
+        
+        
+    }).then((result) => {
+        if (result.isConfirmed) {
+          
+        location.replace("../pages/payment.html");
+    }});
+    
+}
+  
+
+  
+
+

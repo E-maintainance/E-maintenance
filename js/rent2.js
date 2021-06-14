@@ -33,7 +33,7 @@ function handlclick(event){
     saving();
     swal.fire({
         title: `Are you sure you want ${event.target.innerHTML} ?`,
-        text: 'Isn`t it the Coolest car ever?',
+        text: 'to make sure that every thing safe sign contract',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
@@ -43,7 +43,7 @@ function handlclick(event){
     }).then((result) => {
         if (result.isConfirmed) {
           
-        location.replace("../pages/payment.html");
+        location.replace("../pages/sign.html");
     }});
     }
     

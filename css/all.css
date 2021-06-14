@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    background-color: rgb(222, 135, 135);;
+    background-color: rgb(222, 135, 135);
 }
 .wrapper .sidenav{
     position: fixed;
@@ -82,3 +82,4 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+ 

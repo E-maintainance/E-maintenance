@@ -23,7 +23,7 @@ header{
 }
 #main-img{
     background-image: url(/images/pexels-cottonbro-4488636.jpg);
-    width: 1500px;
+    width: 100%;
 }
 
 nav{

@@ -1,3 +1,4 @@
+
 /* .showcase::before,.showcase::after{
     content: '';
     color:white;
@@ -166,114 +167,15 @@ form a {
 /* main img {
     width: 500px ;
     height:500px;
-} */
-
-.zaid {
-    background-color: orangered;
-    }
-    /* .zaid2  {
-        background-color: red;
-        -webkit-transform: skewX(45deg);
-    }
-     */
-    header nav ul li  {
-        display: inline-block;
-    
-    }
-    
-    #aboutus{
-        position:relative ;
-        left: 300px;
-    
-    }
-    #rentcar{
-        position: relative;
-        left: 280px;
-    }
-    #location{
-        position:relative;
-        left: 260px;
-    }
-    #home {
-        position: relative;
-        left: 240px;
-    }
-    header div img{
-       position: relative;
-       left: 280px;
-       top: 0px;
-    }
-    /* header div {
-        background-color: hotpink;
-    } */
-    /* main img {
-        width: 500px ;
-        height:500px;
-    } */
-    
-
-
-
-/* *{
-    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
-} */
-.iron {
-    background-image:url(https://wallpapercave.com/wp/wp6847911.jpg);
-}
-main section p {
-    color: white;
-}
-footer{
-    position: relative;
-    padding-top: 40px;
-    text-align: center;
-    height: 100px;
-}
-/* *{
-    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
-} */
- /* #hero-image{
-    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
-height: 1000px;
 
 } */
-    /* main section img{
-        /* float: right; */
-    /* } */ 
-    /* 
-    #imgp{
-        clear: both;
-        /* float: left; */
-    /* } */ 
-    /* article p {
-        float: left;
-    } */
+
+
     
-    /* body main article {
-        clear: both;
-        
-    } */
-        
-    body main article img{
-    width: 200px;
-    height: 100px;
-    position: relative;
-    left: 45%;
-        
-    }
-    footer{
-        clear: both;
-        text-align: center;
-    }
-    /* *{
-        background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
-    } */
-    /* body {
-        background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1600x1200/2019_bmw_3-series_106_1600x1200.jpg);
-    } */
     form{
         color: whitesmoke;
     }
+
  #logo{
         width: px;
         height: px;
@@ -282,6 +184,7 @@ height: 1000px;
         top: 10px;
  }
 /*form css*/
+
 form {
     position: relative;
     background-color: rgb(10, 10, 10);
@@ -345,6 +248,7 @@ form {
 position: relative;
 left:1050px;
       }
+
 fieldset{
     padding-top: 30px;
 padding-bottom: 30px;}
@@ -356,3 +260,4 @@ padding-bottom: 30px;}
 }
 
     
+

@@ -3,6 +3,7 @@
 'use strict'
 
 const custumer_form = document.getElementById('form');
+let but=document.getElementById("sub")
 let convert;
 
 
@@ -25,6 +26,8 @@ function Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent,date){
 
   Custumer_Data.alldata=[]
 
+
+but .addEventListener("click",handleSubmit)
   custumer_form.addEventListener('submit', handleSubmit);
   function handleSubmit(event){
     event.preventDefault();
@@ -75,3 +78,4 @@ function getFromLs(){
     }
 
 }
+

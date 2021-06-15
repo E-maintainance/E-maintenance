@@ -151,7 +151,7 @@
       confirmButtonText: `Visa`,
       denyButtonText: `Cash`,
     }).then((result) => {
-      /* Read more about isConfirmed, isDenied below */
+      
       if (result.isConfirmed) {
         window.location.pathname = '../pages/payment.html'
       } else if (result.isDenied) {

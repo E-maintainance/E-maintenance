@@ -2,8 +2,8 @@
 /* eslint-disable no-undef */
 'use strict'
 
-const custumer_form = document.getElementById('form');
-let but=document.getElementById("sub")
+let custumer_form = document.getElementById('form');
+let but=document.getElementById("but")
 let convert;
 
 
@@ -27,11 +27,11 @@ function Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent,date){
   Custumer_Data.alldata=[]
 
 
-but .addEventListener("click",handleSubmit)
-  custumer_form.addEventListener('submit', handleSubmit);
+  custumer_form.addEventListener("submit",handleSubmit)
+ 
   function handleSubmit(event){
     event.preventDefault();
-    
+    console.log(event)
     let holder = event.target;
     let fname = holder.fname.value;
     let lname = holder.lname.value;
@@ -55,9 +55,35 @@ let date=today
    new Custumer_Data(fname,lname,phone,email,year,brand,model,area,rent,date)
 
    saving();
+   if(rent=="yes"){
+//     swal.fire({
+//       title: `Lets go to the rent page?`,
+//       text: '',
+//       icon: 'warning',
+//       showCancelButton: true,
+//       confirmButtonColor: '#3085d6',
+//       cancelButtonColor: '#d33',
+//       confirmButtonText: 'Yes'
+      
+//   }).then((result) => {
+//       if (result.isConfirmed) {
+        
+          window.location.pathname = '../pages/rent.html'}
+//   }});
+//    }
   
-  }
+//   }
    
+  
+
+
+
+
+
+
+
+
+
 
   console.log(Custumer_Data.alldata);
 
@@ -79,3 +105,4 @@ function getFromLs(){
 
 }
 
+  }

@@ -30,6 +30,35 @@ function handlclick(event){
         
         new pay("Honda Civic 1999",x);
     }
+    else if(event.target.innerHTML=="BMW 520"){
+        x=29.99
+        
+        new pay("BMW 520",x)
+
+    }
+    else if(event.target.innerHTML=="Mercedes CLK"){
+        x=34.99;
+        
+        new pay("Mercedes CLK",x);
+    }
+    else if(event.target.innerHTML=="Toyota Camry"){
+        x=29.99;
+        
+        new pay("Toyota Camry",x)
+
+    }
+    else if(event.target.innerHTML=="Susuki"){
+        x=12.99;
+        
+        new pay("Susuki",x);
+    }
+    else if(event.target.innerHTML=="H100"){
+        x=7.99;
+        
+        new pay("H100",x);
+    }
+    
+    
     saving();
     swal.fire({
         title: `Are you sure you want ${event.target.innerHTML} ?`,

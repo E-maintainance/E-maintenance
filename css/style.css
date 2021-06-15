@@ -1,6 +1,169 @@
 
-/* .showcase {
+/* .showcase::before,.showcase::after{
+    content: '';
+    color:white;
+    position: absolute;
+    height: 1px;
+    bottom:-550px;
+    right:0PX;
+    left:0PX;
+    background-color:red;
+    transform: skewY(50deg);
+    -webkit-transform: skewY(50deg);
+    -moz-transform:skewY(50deg) ;
+    -ms-transform: skewY(50deg);
+}
+.showcase{
+    height: 40px;
+    background-color: var(--primary-color);
+    color:white;
+    position: relative;
+} */
+#container{
+    position: relative;
+}
+.bg-img{
+    position: absolute;
+}
+#container h1 #num1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(247, 240, 240);
+    top:120px;
+    left: 160px;
+    font-family: 'Mate SC', serif;;
+}
+#container h1 #num2{
+    position: absolute;
+    font-size: 44px;
+    color: rgb(247, 240, 240);
+    top:200px;
+    font-family:'Mate SC', serif;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(10, 10, 10);
+    height: 340px; 
+  }
+  #ourGalary{
+    position: relative;
+    top: 900px;
+}
+.flex-container > img {
+    background-color: #f1f1f1;
+    width: 24.6%;
+    height: 130;
+    margin: 0.3%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  #ourGalary h1{
+      text-align: center;
+      margin-bottom: 4%;
+      font-size: 40px;
+      font-family: 'Mate', serif;
+  }
+  hr{
+    width:10%;
+    color: rgb(247, 240, 240);
+    position: relative;
+    right: -710px;px;
+    }
+
+  #ourGalary h2{
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: 20px;
+  }
+.showcase {
     color: lavenderblush;
+
+}
+.zaid {
+    height: 60px;
+background-color: rgb(17, 17, 17);
+
+}
+.image1{
+position: relative;
+top:20px;
+right: 100px;
+}
+
+.zaid2 {
+    height: 80px;
+    background-color:rgb(233, 95, 45);
+    
+
+   
+}
+#logo{
+    position: relative;
+    left: 120px;
+    width:100px ;
+    height: 80px;
+    top: -35px;
+
+}
+
+header nav ul li  {
+    display: inline-block;
+    bottom: -20px;
+
+}
+
+#aboutus{
+    position:relative ;
+    left: 300px;
+
+}
+#rentcar{
+    position: relative;
+    left: 280px;
+}
+#location{
+    position:relative;
+    left: 260px;
+}
+#home {
+    position: relative;
+    left: 240px;
+}
+header div img{
+   position: relative;
+   left: 280px;
+   top: 0px;
+}
+
+.zaid2{
+    color: white;
+}
+
+main section p{
+    position: relative;
+    top:100px;
+    font-size: 40px;
+}
+#newsection{
+    position: absolute;
+    height: 300px;
+    border: salmon;
+    top: 1550px;
+    
+}
+
+/*feedback */
+
+/**card**/
+/* header div {
+    background-color: hotpink;
+} */
+/* main img {
+    width: 500px ;
+    height:500px;
 
 } */
 
@@ -9,16 +172,28 @@
     form{
         color: whitesmoke;
     }
- 
+
+ #logo{
+        width: px;
+        height: px;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+ }
+/*form css*/
 
 form {
-    background-color: #0a0a0a;
+    position: relative;
+    background-color: rgb(10, 10, 10);
     border: none;
-    color: rgb(250, 246, 246);
+    color: rgb(245, 240, 244);
     padding: 60px;
     text-decoration: none;
     margin: 0px 0px;
     cursor: pointer;
+    top: 800px;
+     
+    
   }
   form lable {
       color: aliceblue;
@@ -70,3 +245,16 @@ form {
 position: relative;
 left:1050px;
       }
+
+fieldset{
+    padding-top: 30px;
+padding-bottom: 30px;}
+
+#form fieldset legend{
+    font-size: 16px;
+    right: -80px;
+    
+}
+
+    
+

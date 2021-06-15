@@ -1,8 +1,8 @@
 
-// document.getElementById('but').addEventListener('click',function (){
-//   //   alert ('hello!!');
-//   if (document.getElementById('rent').checked == true )
-//   {
-//     location.replace('../pages/rent.html');
-//   }
-// });
+document.getElementById('sub').addEventListener('click',function (){
+  //   alert ('hello!!');
+  if (document.getElementById('yes').checked == true )
+  {
+    location.replace('../pages/rent.html');
+  }
+});

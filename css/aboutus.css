@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 html{
     box-sizing: border-box;
     font-size: 100%;
 }
 
+#P1{
+    font-family: 'Gentium Book Basic', serif;
+}
+
+main h5{
+    font-family: 'Gentium Book Basic', serif;
+    text-align: center;
+}
 #about-secOne {
     font-family: 'Staatliches', cursive;
     text-align: center;
@@ -12,9 +23,10 @@ html{
 }
 
 
+
   .missionOne{
     text-align: center;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Do Hyeon', sans-serif;
     color:#5d4954 ;
    
 }
@@ -163,7 +175,8 @@ section .section-title {
 
 .frontside .card,
 .backside .card {
-    min-height: 312px;
+    min-height: 250px;
+    /* width: 70%; */
 }
 
 .backside .card a {

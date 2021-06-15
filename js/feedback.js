@@ -15,10 +15,16 @@ function render() {
     let list = document.createElement('li');
     list.setAttribute('id', 'li');
     ulEl.appendChild(list);
+
     let h2El = document.createElement('h2');
     list.appendChild(h2El);
     h2El.id = 'h2';
-    h2El.textContent = feedbackArr[i].name;
+    h2El.textContent = i+1 ;
+    let h3El = document.createElement('h3');
+    list.appendChild(h3El);
+    h3El.id = 'h3';
+    h3El.textContent = feedbackArr[i].name;
+
     let pEl = document.createElement('p');
     pEl.id = 'textP';
     list.appendChild(pEl);

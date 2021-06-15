@@ -9,10 +9,18 @@
   justify-content: center;
   align-items: center;
   margin: 0;
-  background-color: #f7f8fc;
+  /* background-color: #f7f8fc; */
   font-family: "Roboto", sans-serif;
   color: #10182f;
 }
+#m{
+  background-image: url(../images/carssssssss.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
 .container {
   display: flex;
   width: 1350px;
@@ -39,9 +47,9 @@
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
-  min-height: 250px;
+  min-height: 210px;
 }
-
+ 
 .tag {
   background: #cccccc;
   border-radius: 50px;
